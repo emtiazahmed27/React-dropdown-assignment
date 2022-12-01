@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  width: 420px;
+  min-height: 60vh;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 8px 7px 31px 2px rgba(0, 0, 0, 0.23);
+}
+
+.Display {
+  width: 90%;
+  min-height: 8vh;
+  border: 2px solid purple;
+  border-radius: 3px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.Displaywrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.DisplayColorCard {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 2px solid purple;
+  cursor: pointer;
+}
+
+.Iconwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ColorCard {
+  width: 90%;
+  border-radius: 3px;
+  margin-top: 0.5em;
+  min-height: auto;
+  padding: 20px;
+  box-shadow: 8px 7px 31px 2px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.Color {
+  border: 2px solid purple;
+  border-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 5px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.rotate {
+  rotate: 180deg;
+}
